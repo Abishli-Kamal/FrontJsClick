@@ -1,0 +1,44 @@
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 4px solid rgb(29, 14, 230);
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px ;
+  border-bottom: 1px solid rgb(29, 14, 230);
+  background-color: #CCC;
+}
+
+.tab.active {
+  background-color: #CCC;
+  border-radius: 5px;
+}
+
+.tab:hover {
+  background-color: rgb(12, 163, 168);
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
